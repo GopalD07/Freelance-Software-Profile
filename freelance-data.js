@@ -1,92 +1,167 @@
 const freelanceData = {
-  brand: "Om Ramanuj + Gopal Devmurari",
-  title: "Freelance Software Development & Data Solutions",
-  intro:
-    "We build reliable software for startups, small businesses, founders, and teams that need practical digital products delivered with strong technical execution. Our work combines full-stack engineering, product thinking, automation, analytics, and scalable backend systems.",
-  statement:
-    "From business websites and internal tools to data-driven platforms and custom software workflows, we handle projects end-to-end: planning, design coordination, development, integrations, deployment, and iterative improvements.",
+  brand: "Om Ramanuj & Gopal Devmurari",
+  pageTitle: "Om & Gopal — Freelance Engineering",
+  metaDescription:
+    "Freelance software development, AI systems, analytics, full-stack applications, and high-performance engineering by Om Ramanuj and Gopal Devmurari.",
+  badge: "Available for Freelance Projects",
+  heroTitle: "We build software that delivers.",
+  heroHighlight: "delivers.",
+  heroSubtitle:
+    "Two engineers ready to build practical, production-grade software for startups, founders, and businesses. We combine full-stack engineering, AI-enabled systems, analytics, automation, and performance-focused backend development.",
+  headerPills: [
+    "India-Based · Remote-First",
+    "SVNIT Surat · Nirma University",
+    "AI · Full-Stack · Analytics · Automation"
+  ],
   services: [
     {
-      title: "Custom Web Applications",
-      text: "Professional websites, portals, dashboards, admin panels, booking systems, marketplace flows, and tailored business software."
-    },
-    {
-      title: "Full-Stack Product Development",
-      text: "Frontend and backend delivery using modern stacks such as Next.js, React, Node.js, FastAPI, Flask, MongoDB, PostgreSQL, and REST APIs."
-    },
-    {
-      title: "Mobile & Multi-Platform Solutions",
-      text: "Flutter-based app workflows, event management systems, companion apps, and connected web dashboards for operational teams."
-    },
-    {
+      icon: "AI",
       title: "AI, Automation & Smart Features",
-      text: "AI-assisted experiences, process automation, scraping pipelines, smart recommendation flows, 3D customization interfaces, and productivity tooling."
+      text: "AI-assisted workflows, recommendation systems, smart business tools, automation pipelines, and product features built around practical use cases."
     },
     {
-      title: "Data Analytics & Decision Systems",
-      text: "Dashboards, analytics tools, segmentation, reporting pipelines, KPI tracking, pricing intelligence, and business insight systems."
+      icon: "API",
+      title: "Full-Stack Web Applications",
+      text: "Product-grade web apps, client portals, dashboards, booking systems, admin panels, and custom digital products built for real business use."
     },
     {
-      title: "Performance-Critical Systems",
-      text: "High-speed data processing, backtesting engines, quantitative workflows, optimization pipelines, and scalable engineering for data-heavy products."
+      icon: "SYS",
+      title: "High-Performance Backends",
+      text: "Scalable APIs, backend services, WebSocket systems, event-driven workflows, data-heavy processing, and performance-oriented engineering."
+    },
+    {
+      icon: "DATA",
+      title: "Data Engineering & Analytics",
+      text: "Dashboards, ETL workflows, web scraping systems, reporting pipelines, pricing intelligence, segmentation, and business analytics tools."
+    },
+    {
+      icon: "MOB",
+      title: "Mobile & Operational Tools",
+      text: "Flutter-enabled app workflows, event systems, internal management tools, and business software that helps teams operate more efficiently."
+    },
+    {
+      icon: "OPS",
+      title: "Deployment, Support & Iteration",
+      text: "From project planning and build execution to deployment, improvement cycles, and post-launch support for evolving product needs."
     }
-  ],
-  delivery: [
-    "MVPs and startup product builds",
-    "Business websites with strong UX and clear conversion paths",
-    "Internal dashboards and workflow software",
-    "Custom APIs, backend architecture, and database design",
-    "Automation tools and web/data scraping systems",
-    "Analytics, reporting, and visualization solutions",
-    "AI-enabled product features and experimental builds",
-    "Maintenance, upgrades, deployment, and technical support"
-  ],
-  strengths: [
-    "Strong combination of software engineering, analytics, and product execution",
-    "Hands-on experience across React, Next.js, Node.js, FastAPI, Flask, Flutter, Python, Rust, MongoDB, and PostgreSQL",
-    "Experience building real-world systems for booking, e-commerce, analytics, event operations, and quantitative workflows",
-    "Comfortable working from early idea stage to production deployment"
   ],
   profiles: [
     {
       name: "Om Ramanuj",
-      role: "Full-Stack Developer | Product Builder",
+      role: "Full-Stack Developer · Product Builder",
+      avatar: "OM",
+      tags: ["React · Next.js", "Node.js · FastAPI", "Flutter", "Go · PostgreSQL"],
       summary:
-        "Experience includes live product development, SEO-focused web delivery, mobile/web systems, hackathon-winning product builds, and modern frontend/backend implementation.",
+        "Builds product-facing software with strong emphasis on frontend quality, full-stack execution, and practical delivery for business and startup use cases.",
       highlights: [
-        "Worked on Next.js and FastAPI products, appointment systems, video call workflows, and production deployments",
-        "Led technical delivery across app and web solutions with Flutter and Node.js",
-        "Built interactive products using React, Go, PostgreSQL, Three.js, and AI integrations"
+        "Built live product systems with booking flows, video-call workflows, SEO improvements, and production deployments",
+        "Led technical delivery for mobile and web systems with Flutter and Node.js",
+        "Created interactive software using React, Go, PostgreSQL, Three.js, and AI-assisted experiences"
       ],
-      portfolio: "https://www.omramanuj.site/"
+      portfolio: "https://www.omramanuj.site/",
+      email: "ramanuj.om.r@gmail.com",
+      phone: "+91 88666 77277"
     },
     {
       name: "Gopal Devmurari",
-      role: "Software Engineer | Data & Automation Specialist",
+      role: "Software Engineer · Data & Automation Specialist",
+      avatar: "GD",
+      tags: ["Python · Rust", "FastAPI · Flask", "Data Science", "Trading Systems"],
       summary:
-        "Experience includes data-heavy software, algorithmic systems, analytics platforms, automation pipelines, and backend/API development with strong quantitative and problem-solving depth.",
+        "Builds data-intensive systems, analytics tools, automation pipelines, and backend software with strong quantitative and performance-oriented depth.",
       highlights: [
-        "Built trading systems, backtesting infrastructure, analytics tools, and high-performance Rust/Python workflows",
-        "Developed scraping pipelines, compliance datasets, and REST APIs using Flask and FastAPI",
-        "Delivers practical solutions that combine engineering, data analysis, and measurable business utility"
+        "Built live trading systems, backtesting infrastructure, and high-performance Rust/Python workflows",
+        "Developed scraping pipelines, compliance datasets, and APIs using Flask and FastAPI",
+        "Combines engineering, analytics, and business problem solving into measurable software outputs"
       ],
-      portfolio: "https://gopal-dev-portfolio.vercel.app/"
+      portfolio: "https://gopal-dev-portfolio.vercel.app/",
+      email: "gopaldevmurari20@gmail.com",
+      phone: "+91 88665 53468"
     }
   ],
-  process: [
-    "Requirement discussion and scope definition",
-    "Technical approach and timeline planning",
-    "Development with regular progress updates",
-    "Testing, deployment, and handover",
-    "Post-launch support as needed"
+  buildSections: [
+    {
+      title: "Om Ramanuj — Notable Work",
+      items: [
+        "Dual-sided platforms, appointment flows, and customer-facing product experiences",
+        "Next.js and FastAPI product builds with SEO improvements and live deployment",
+        "Flutter and Node.js operational systems for structured event and admin workflows",
+        "Interactive web products built with React, Go, PostgreSQL, and motion-rich UI implementation",
+        "AI-assisted visual and customization experiences with modern frontend tooling",
+        "Hackathon-winning and production-minded software built from concept to release"
+      ]
+    },
+    {
+      title: "Gopal Devmurari — Notable Work",
+      items: [
+        "Live NSE trading and monitoring systems handling real-time signals and execution logic",
+        "Rust-based parallel backtesting engine delivering major speed improvements over Python",
+        "Flask and FastAPI APIs with automation pipelines and MongoDB-backed workflows",
+        "SQL and Python analytics solutions for segmentation, retention, and ROI analysis",
+        "Gesture-based interaction systems using OpenCV, MediaPipe, and predictive logic",
+        "Tableau and reporting systems for pricing trends, KPI tracking, and decision support"
+      ]
+    }
   ],
+  stack: [
+    { label: "Python", hi: true },
+    { label: "Rust", hi: true },
+    { label: "Go", hi: true },
+    { label: "JavaScript", hi: true },
+    { label: "TypeScript", hi: true },
+    { label: "React", hi: false },
+    { label: "Next.js", hi: true },
+    { label: "Node.js", hi: false },
+    { label: "FastAPI", hi: true },
+    { label: "Flask", hi: false },
+    { label: "Flutter", hi: false },
+    { label: "MongoDB", hi: false },
+    { label: "PostgreSQL", hi: false },
+    { label: "SQL", hi: false },
+    { label: "Selenium", hi: false },
+    { label: "OpenCV", hi: false },
+    { label: "Tableau", hi: false },
+    { label: "Scikit-learn", hi: false },
+    { label: "REST APIs", hi: true },
+    { label: "WebSockets", hi: false },
+    { label: "Automation Pipelines", hi: true },
+    { label: "Analytics Dashboards", hi: false }
+  ],
+  stats: [
+    { value: "700+", label: "Stocks tracked across real-time monitoring and analytics workflows" },
+    { value: "10x", label: "Speedup achieved in Rust-based backtesting infrastructure" },
+    { value: "2", label: "Complementary engineering profiles across product and data systems" },
+    { value: "End-to-End", label: "Delivery from scoping and build to deployment and support" }
+  ],
+  process: [
+    {
+      step: "Step 01",
+      title: "Discovery Call",
+      text: "We understand your business goals, current pain points, timelines, and technical expectations."
+    },
+    {
+      step: "Step 02",
+      title: "Scope & Proposal",
+      text: "A clear delivery plan with suggested approach, milestones, and scope-based pricing discussion."
+    },
+    {
+      step: "Step 03",
+      title: "Build & Iterate",
+      text: "Structured execution with updates, review points, and iteration based on practical feedback."
+    },
+    {
+      step: "Step 04",
+      title: "Deliver & Support",
+      text: "Deployment, handover, refinement, and support for a stable and useful finished outcome."
+    }
+  ],
+  ctaTitle: "Let's build something great together.",
+  ctaText:
+    "Whether you need a business website, dashboard, custom software workflow, analytics platform, automation tool, or scalable backend system, we can scope it, build it, and ship it professionally.",
   payment:
-    "Payment and commercial terms can be discussed based on project requirements, scope, complexity, and timeline.",
-  contact: {
-    emails: ["ramanuj.om.r@gmail.com", "gopaldevmurari20@gmail.com"],
-    phones: ["+91 88666 77277", "+91 88665 53468"],
-    locations: ["Surat, Gujarat", "Ahmedabad, Gujarat"]
-  }
+    "We keep pricing flexible and project-specific. Payment and commercial terms can be discussed transparently based on project requirements, scope, complexity, and timeline.",
+  footerLeft: "Om Ramanuj · Gopal Devmurari — Freelance Engineering",
+  footerRight: "India · Remote-First · 2026"
 };
 
 if (typeof module !== "undefined" && module.exports) {
