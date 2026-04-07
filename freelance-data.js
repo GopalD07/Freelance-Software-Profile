@@ -74,7 +74,7 @@ const freelanceData = {
         "Developed scraping pipelines, compliance datasets, and APIs using Flask and FastAPI",
         "Combines engineering, analytics, and business problem solving into measurable software outputs"
       ],
-      portfolio: "https://gopal-dev-portfolio.vercel.app/",
+      portfolio: "https://gopaldev.site/",
       email: "gopaldevmurari20@gmail.com",
       phone: "+91 88665 53468"
     }
